@@ -1,0 +1,31 @@
+body{font-family:"arial, helvetica, sans-serif";background:#edc4cb;}
+.container{max-width:960px;min-width:320px;margin:0 auto;}
+.top{max-width:960px;min-width:320px;background:#AB0806;text-align:center;color:#fff;width:100%;position:fixed;top:0px;z-index:999;}
+.top li{float:left;padding:10px 0px;}
+.top img{width:22px;height:22px;}
+.top a{cursor:pointer;}
+.top_left{margin-left:2%;width:18%;text-align:left;}
+.top_right{margin-right:2%;width:18%;text-align:right;}
+.top_center{width:60%;}
+.banner img{width:100%;}
+.search{width:100%;background:#776266;border-radius:8px;display:flex;margin-top:10px;}
+.search img{width:25px;}
+.search_ico{flex:26;padding:5px 0px;}
+.search_ico img{margin-left:15px;}
+.search_ico input{border:none;background:#776266;width:80%;line-height:23px;}
+.search_ewm{flex:2;text-align:center;border-left:1px solid #fff;padding:5px 0px;}
+nav li{text-align:center;width:25%;float:left;margin-top:10px;padding-bottom:10px;}
+nav li img{width:35%;padding-bottom:5px;}
+section{clear:both;}
+.girl{background:#8B2498;font-size:14px;color:#fff;padding:10px 0px 10px 15px;}
+.shop li{float:left;width:48%;margin:1%;}
+.shop li img{width:100%;}
+@media screen and (min-width:480px) and (max-width:640px){.shop li{width:48%;}}
+@media screen and (min-width:640px) and (max-width:960px){
+	nav li{width:12.5%;}
+	.shop li{width:31.3%;}
+}
+@media screen and (min-width:960px){
+	nav li{width:12.5%;}
+	.shop li{width:18%;}
+}
